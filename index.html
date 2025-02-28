@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Начало</title>
+    <link rel="stylesheet" href="styles.css"> 
+
+    <script>
+        function show() {
+            let elements = document.querySelectorAll(".box");
+            elements.forEach(element => {
+                element.style.maxHeight = "400px";
+                element.style.overflow = "visible";
+            });
+        }
+    </script>
+</head>
+<body>    
+
+    <div>
+        <div> <img src="gallery/risunka.jpg" alt="logo" class="animate-image" width="100"> <br/><br/> </div>
+        <div class="navbar">
+        <a href="index.html">Начало</a> |
+        <a href="about_us.html"><b>За нас</b></a> |
+        <a href="partners.html">Партньори</a> |
+        <a href="contacts.html">Контакти</a>
+        </div>
+        <form action="#" method="get">
+            <b>Търси се: </b>
+            <input type="text" class="search" placeholder="Търсене...">
+        </form>
+    </div>
+    <br/><br/>
+    <div> 
+        
+        <p><b>СОЦИАЛЕН ХЪБ</b> е платформа, предоставяща възможност на физически лица, организации и независими местни занаятчии да продават продуктите си в региона и извън него.</p>
+        <img src="gallery/Picture_1.jpg" alt="image" class="animate-image" width="500"> 
+        <div class="container">
+            <p><b>Нашата МИСИЯ</b></p>
+            <div class="box">
+                ... да помогнем на бизнеса да намери своите клиенти, за да финансираме социална кухня за подпомагане на възрастни хора в неравностойно положение.
+            </div>
+        
+            <p><b>Как работи СОЦИАЛЕН ХЪБ</b></p>
+            <div class="box">
+                ... ако производителите имат собствен онлайн магазин или фейсбук страница, Социален хъб ще Ви свърже с бъдещи клиенти!
+            </div>
+        
+            <p><b>Защо можем да си ПОМАГАМЕ ВЗАИМНО</b></p>
+            <div class="box">
+                ... като ви помогнем да управлявате успешно бизнеса си и едновременно с това да бъдете социално ангажирани.
+            </div>
+            
+            <button onclick="show()">Покажи повече</button>
+        </div>
+        
+        <br/>
+        <div class="btn_more">
+            <a href="contacts.html"><b>Свържете се с нас</b></a>
+        </div>
+    </div>
+    <br/>
+    <div> 
+        <img src="gallery/Picture_10.jpg" alt="image" class="animate-image" width="500"> 
+        <h2>За нас</h2> 
+        <p>
+            Социален хъб е платформа, стартирана от млади социални предприемачи. 
+            Нашата цел е да осигурим средства за създаване и поддръжка на социална 
+            кухня чрез свързване на местния бизнес с потенциални клиенти. В нашата 
+            кухня работят студенти и ученици, навършили 16 години. 
+        </p>
+        <div class="btn_more">
+            <a href="about_us.html"><b>Виж още...</b></a>
+        </div>
+    </div>
+    <div>
+        <h2>Предприемачи в проекта "Социален хъб"</h2>
+        <ul>
+            <li>Иван Иванов</li>
+            <li>Мария Петрова</li>
+            <li>Георги Димитров</li>
+            <li>Елена Николова</li>
+            <li>Николай Костов</li>
+            <li>Стефка Василева</li>
+            <li>Петър Георгиев</li>
+        </ul>
+    </div>
+    <div class="footer">
+        <p>Автор: Иван Иванов | Училище: Технологично училище | Година: 2025</p>
+    </div>
+    
+</body>
+</html>

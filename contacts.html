@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="bg">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Контакти</title>
+        <link rel="stylesheet" href="styles.css"> 
+    </head>
+    <body>
+        <div>
+            <div> <img src="gallery/risunka.jpg" alt="logo" class="animate-image" width="100"> <br/><br/> </div>
+            <div class="navbar">
+                <a href="index.html">Начало</a> |
+                <a href="about_us.html"><b>За нас</b></a> |
+                <a href="partners.html">Партньори</a> |
+                <a href="contacts.html">Контакти</a>
+            </div>
+            <form action="#" method="get">
+                <b>Търси се: </b>
+                <input type="text" class="search" placeholder="Търсене...">
+            </form>
+        </div>
+
+        <header>
+            <h1>Контакти</h1>
+        </header>
+
+        <section>
+            <p>Не се притеснявайте да се свържете с нас. Ние ще Ви запознаем с възможностите на СОЦИАЛЕН ХЪБ.</p>
+            <p>Можете да зададете въпрос и като попълните онлайн формата или ни позвъните.</p>
+
+            <h2>Нашето местоположение</h2>
+            <p>Адрес: Русе Център, ул. „Иван Вазов“ 18, 7000 Русе</p>
+            <p>Телефон: +359 887 675 435</p>
+            <p>Имейл: school@example.com</p>
+
+            <div>
+                <h2>Нашия екип</h2>
+                <img src="gallery/unnamed.jpg" alt="Нашия екип" class="animate-image" width="600">
+            </div>
+            <br/><br/><br/>
+
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Iz7wk0ocDLM?si=cX6Z81-IZdYNoT5y"
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <br/><br/><br/>
+
+            <div>
+                <h2>Поздрав</h2>
+                <audio controls>
+                    <source src="Stray Kids _(S-Class)_ M_V.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <br/><br/><br/>
+
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2877.5307857727926!2d25.948393676088543!3d43.84482607109364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40ae60c1560a231f%3A0xe027950f52cd00de!2z0KDRg9GB0LUg0KbQtdC90YLRitGALCDRg9C7LiDigJ7QmNCy0LDQvSDQktCw0LfQvtCy4oCcIDE4LCA3MDAwINCg0YPRgdC1!5e0!3m2!1sbg!2sbg!4v1733141615916!5m2!1sbg!2sbg"
+                width="600"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+
+        <section>
+            <h2>Контактна информация</h2>
+            <div class="contact_info">
+                <div class="contacts_box">
+                    <h3>Адрес</h3>
+                    <p>ул. Примерна 1, София, България</p>
+                </div>
+
+                <div class="contacts_box_middle">
+                    <h3>Телефон</h3>
+                    <p>+359 123 456 789</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Контактна форма</h2>
+            <form action="process_form.php" method="POST">
+                <fieldset>
+                    <legend>Попълнете формата за контакт</legend>
+
+                    <label for="name">Име:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Имейл:</label><br>
+                    <input type="text" id="email" name="email" required><br><br>
+
+                    <label for="phone">Телефон:</label><br>
+                    <input type="text" id="phone" name="phone"><br><br>
+
+                    <label for="subject">Предмет:</label><br>
+                    <input type="text" id="subject" name="subject" required><br><br>
+
+                    <label for="message">Съобщение:</label><br>
+                    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+                    <button type="submit">Изпрати</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <footer>
+            <p><a href="contacts.html"><b>Свържете се с нас</b></a></p>
+        </footer>
+
+        <script src="contacts.js"></script>
+
+    </body>
+</html>
